@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\7.M seminar\\spojovy_seznam\\",
+  "WorkspaceRootPath": "O:\\7.M seminar\\Vlastni_repo\\spojovy_seznam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E40B0CB-8928-41D0-B970-C26295897C6A}|spojovy_seznam.csproj|o:\\7.m seminar\\spojovy_seznam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E40B0CB-8928-41D0-B970-C26295897C6A}|spojovy_seznam.csproj|o:\\7.m seminar\\vlastni_repo\\spojovy_seznam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E40B0CB-8928-41D0-B970-C26295897C6A}|spojovy_seznam.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "O:\\7.M seminar\\spojovy_seznam\\Program.cs",
+              "DocumentMoniker": "O:\\7.M seminar\\Vlastni_repo\\spojovy_seznam\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "O:\\7.M seminar\\spojovy_seznam\\Program.cs",
+              "ToolTip": "O:\\7.M seminar\\Vlastni_repo\\spojovy_seznam\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T13:28:44.38Z",
               "EditorCaption": ""
