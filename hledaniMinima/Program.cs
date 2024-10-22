@@ -1,8 +1,8 @@
-﻿using System;
+﻿// See https://aka.ms/new-console-template for more information
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,8 +12,9 @@ namespace spojovy_seznam
     {
         static void Main(string[] args)
         {
-            Node uzlik = new Node(8);
-            
+            LinkedList linkedList = new LinkedList();
+            Console.WriteLine(linkedList.FindMinimum());
+            Console.ReadLine();
         }
     }
 
@@ -23,19 +24,19 @@ namespace spojovy_seznam
         {
             Value = value;
         }
-        public int Value { get;}
+        public int Value { get; }
         public Node Next { get; set; }
     }
     class LinkedList
     {
         public Node Head { get; set; }
 
-        public void Add(int value) // pridat prvek do seznamu
+        public void Add(int value) // pridat prvek do seznamu, složitost O(1)
         {
             if (Head == null) // když je prázdný
-                { 
-                    Head = new Node(value); 
-                }
+            {
+                Head = new Node(value);
+            }
             else
             {
                 Node newNode = new Node(value);
@@ -44,7 +45,7 @@ namespace spojovy_seznam
 
             }
         }
-        public bool Find(int value)
+        public bool Find(int value) // složitost O(n)
         {
 
             Node node = Head;
@@ -57,13 +58,13 @@ namespace spojovy_seznam
             return false;
         }
 
-        public int FindMinimum()
+        public int FindMinimum() // složitost O(n)
         {
             Node node = Head;
 
             if (Head == null) // když je prázdný
             {
-                Console.Writeline("Seznam je prázdný");
+                Console.WriteLine("Seznam je prázdný");
                 return 0;
             }
 
@@ -75,9 +76,9 @@ namespace spojovy_seznam
                     minimum = node.Value;
                 node = node.Next;
             }
-            return minimum
+            return minimum;
         }
     }
-    
-    
+
+
 }

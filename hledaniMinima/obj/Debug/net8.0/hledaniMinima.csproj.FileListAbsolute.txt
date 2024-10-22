@@ -1,0 +1,15 @@
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\hledaniMinima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\hledaniMinima.AssemblyInfoInputs.cache
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\hledaniMinima.AssemblyInfo.cs
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\hledaniMinima.csproj.CoreCompileInputs.cache
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\hledaniMinima.sourcelink.json
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\bin\Debug\net8.0\hledaniMinima.exe
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\bin\Debug\net8.0\hledaniMinima.deps.json
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\bin\Debug\net8.0\hledaniMinima.runtimeconfig.json
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\bin\Debug\net8.0\hledaniMinima.dll
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\bin\Debug\net8.0\hledaniMinima.pdb
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\hledaniMinima.dll
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\refint\hledaniMinima.dll
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\hledaniMinima.pdb
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\hledaniMinima.genruntimeconfig.cache
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\hledaniMinima\obj\Debug\net8.0\ref\hledaniMinima.dll
