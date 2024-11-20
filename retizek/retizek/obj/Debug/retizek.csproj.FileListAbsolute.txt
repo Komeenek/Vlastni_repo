@@ -1,0 +1,7 @@
+O:\7.M seminar\retizek\retizek\bin\Debug\retizek.exe.config
+O:\7.M seminar\retizek\retizek\bin\Debug\retizek.exe
+O:\7.M seminar\retizek\retizek\bin\Debug\retizek.pdb
+O:\7.M seminar\retizek\retizek\obj\Debug\retizek.csproj.AssemblyReference.cache
+O:\7.M seminar\retizek\retizek\obj\Debug\retizek.csproj.CoreCompileInputs.cache
+O:\7.M seminar\retizek\retizek\obj\Debug\retizek.exe
+O:\7.M seminar\retizek\retizek\obj\Debug\retizek.pdb
