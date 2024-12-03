@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\heissigerjindrich2\\Desktop\\koood\\SEMINAR\\Vlastni_repo\\zasobnik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E693CEB4-D4CC-4EBA-BAFF-ABB615F6D7C9}|zasobnik.csproj|c:\\users\\heissigerjindrich2\\desktop\\koood\\seminar\\vlastni_repo\\zasobnik\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E693CEB4-D4CC-4EBA-BAFF-ABB615F6D7C9}|zasobnik.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\heissigerjindrich2\\Desktop\\koood\\SEMINAR\\Vlastni_repo\\zasobnik\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\heissigerjindrich2\\Desktop\\koood\\SEMINAR\\Vlastni_repo\\zasobnik\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T21:15:32.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

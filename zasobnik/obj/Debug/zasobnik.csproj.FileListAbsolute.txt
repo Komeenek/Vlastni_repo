@@ -1,0 +1,7 @@
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\zasobnik\bin\Debug\zasobnik.exe.config
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\zasobnik\bin\Debug\zasobnik.exe
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\zasobnik\bin\Debug\zasobnik.pdb
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\zasobnik\obj\Debug\zasobnik.csproj.AssemblyReference.cache
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\zasobnik\obj\Debug\zasobnik.csproj.CoreCompileInputs.cache
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\zasobnik\obj\Debug\zasobnik.exe
+C:\Users\heissigerjindrich2\Desktop\koood\SEMINAR\Vlastni_repo\zasobnik\obj\Debug\zasobnik.pdb
