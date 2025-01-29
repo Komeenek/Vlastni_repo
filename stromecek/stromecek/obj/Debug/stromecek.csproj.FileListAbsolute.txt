@@ -1,0 +1,7 @@
+O:\7.M seminar\Vlastni_repo\stromecek\stromecek\obj\Debug\stromecek.csproj.AssemblyReference.cache
+O:\7.M seminar\Vlastni_repo\stromecek\stromecek\obj\Debug\stromecek.csproj.CoreCompileInputs.cache
+O:\7.M seminar\Vlastni_repo\stromecek\stromecek\bin\Debug\stromecek.exe.config
+O:\7.M seminar\Vlastni_repo\stromecek\stromecek\bin\Debug\stromecek.exe
+O:\7.M seminar\Vlastni_repo\stromecek\stromecek\bin\Debug\stromecek.pdb
+O:\7.M seminar\Vlastni_repo\stromecek\stromecek\obj\Debug\stromecek.exe
+O:\7.M seminar\Vlastni_repo\stromecek\stromecek\obj\Debug\stromecek.pdb
