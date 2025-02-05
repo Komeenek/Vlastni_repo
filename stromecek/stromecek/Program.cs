@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
@@ -12,30 +13,48 @@ namespace stromecek
     {
         static void Main(string[] args)
         {
-            Node<string> node1 = new Node<string>(1, "kekw");
-            Node<string> node2 = new Node<string>(2, "sussy");
-            Node<string> node3 = new Node<string>(3, "lol");
-            Node<string> node4 = new Node<string>(4, "kkt");
-            Node<string> node0 = new Node<string>(0, "flejk");
+            // odtud by mělo být přístupné jen to nejdůležitější, žádné vnitřní pomocné implementace.
+            // Strom a jeho metody mají fungovat jako černá skříňka, která nám nabízí nějaké úkoly a my se nemusíme starat o to, jakým postupem budou splněny.
+            // rozhodně také nechceme mít možnost datovou stukturu nějak měnit jinak, než je dovoleno (třeba nějakým jiným způsobem moct přidat nebo odebrat uzly, aniž by platili invarianty struktury)
 
-            node3.LeftSon = node1;
-            node1.RightSon = node3;
-            node1.LeftSon = node0;
-            node3.LeftSon = node2;
-            node3.RightSon = node4;
+            BinarySearchTree<Student> tree = new BinarySearchTree<Student>();
 
-            BinarySearchTree<string> tree = new BinarySearchTree<string>();
+            // čteme data z CSV souboru se studenty (soubor je uložen ve složce projektu bin/Debug u exe souboru)
+            // CSV je formát, kdy ukládáme jednotlivé hodnoty oddělené čárkou
+            // v tomto případě: Id,Jméno,Příjmení,Věk,Třída
+            using (StreamReader streamReader = new StreamReader("studenti_shuffled.csv"))
+            {
+                string line = streamReader.ReadLine();
+                while (line != null)
+                {
+                    string[] studentData = line.Split(',');
 
-            tree.Root = node1;
+                    Student student = new Student(
+                        Convert.ToInt32(studentData[0]),    // Id
+                        studentData[1],                     // Jméno
+                        studentData[2],                     // Příjmení
+                        Convert.ToInt16(studentData[3]),    // Věk
+                        studentData[4]);                    // Třída
 
-            Console.WriteLine(tree.Show());
+                    // vložíme studenta do stromu, jako klíč slouží jeho Id
+                    tree.Inzert(student.Id, student);
+                    line = streamReader.ReadLine();
+                }
+            }
+            Student novacek = new Student(169, "Komeen", "Neplatil", 69, "2.C");
 
-            Console.WriteLine(tree.Fajnd(1).Value);
+            tree.Inzert(novacek.Id, novacek);
+
+            Console.WriteLine(tree.Fajnd(169).Value);
+
 
             Console.ReadLine();
         }
 
     }
+
+
+
 
     class Node<T>
     {
@@ -100,6 +119,90 @@ namespace stromecek
             }
 
             return _fajnd(Root, key);
+        }
+
+        public T FajndMin()
+        {
+            T _fajndMin(Node<T> node)
+            {
+                if (node == null)
+                    return default;
+                if (node.LeftSon == null)
+                    return node.Value;
+                return _fajndMin(node.LeftSon);
+            }
+
+            return _fajndMin(Root);
+        }
+
+        public void Inzert(int newKey, T newValue)
+        {
+            Node<T> node = new Node<T>(newKey, newValue);
+
+            if (node == null) return;
+
+            if (Root == null)
+                Root = node;
+
+            void _inzert(Node<T> nodik, Node<T> rootik)
+            {
+                if (nodik == null)
+                    return;
+
+                if (node.Key < rootik.Key)
+                {
+                    if (rootik.LeftSon == null)
+                    {
+                        rootik.LeftSon = nodik;
+                        return;
+                    }
+
+                    _inzert(nodik, rootik.LeftSon);
+                }
+
+                if (node.Key > rootik.Key)
+                {
+                    if (rootik.RightSon == null)
+                    {
+                        rootik.RightSon = nodik;
+                        return;
+                    }
+                    _inzert(nodik, rootik.RightSon);
+                }
+
+                if (node.Key == rootik.Key)
+                    return;
+            }
+
+            _inzert(node, Root);
+
+            return;
+
+        }
+    }
+    class Student
+    {
+        public int Id { get; }
+        public string FirstName { get; }
+        public string LastName { get; }
+        public int Age { get; }
+
+        public string ClassName { get; }
+
+        public Student(int id, string firstName, string lastName, int age, string className)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            Age = age;
+            ClassName = className;
+        }
+
+        // aby se nám při Console.WriteLine(student) nevypsala jen nějaká adresa v paměti,
+        // upravíme výpis objektu typu student na něco čitelného
+        public override string ToString()
+        {
+            return string.Format("{0} {1} (ID: {2}) ze třídy {3}", FirstName, LastName, Id, ClassName);
         }
     }
 }
