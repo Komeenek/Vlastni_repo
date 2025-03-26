@@ -1,0 +1,7 @@
+O:\7.M seminar\Vlastni_repo\vyhra_check\vyhra_check\bin\Debug\vyhra_check.exe.config
+O:\7.M seminar\Vlastni_repo\vyhra_check\vyhra_check\bin\Debug\vyhra_check.exe
+O:\7.M seminar\Vlastni_repo\vyhra_check\vyhra_check\bin\Debug\vyhra_check.pdb
+O:\7.M seminar\Vlastni_repo\vyhra_check\vyhra_check\obj\Debug\vyhra_check.csproj.AssemblyReference.cache
+O:\7.M seminar\Vlastni_repo\vyhra_check\vyhra_check\obj\Debug\vyhra_check.csproj.CoreCompileInputs.cache
+O:\7.M seminar\Vlastni_repo\vyhra_check\vyhra_check\obj\Debug\vyhra_check.exe
+O:\7.M seminar\Vlastni_repo\vyhra_check\vyhra_check\obj\Debug\vyhra_check.pdb

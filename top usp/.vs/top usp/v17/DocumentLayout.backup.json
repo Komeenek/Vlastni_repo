@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\7.M seminar\\Vlastni_repo\\top usp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55521B5F-2EA0-4FCC-87A0-6CF2E0D5ADBD}|top usp\\top usp.csproj|o:\\7.m seminar\\vlastni_repo\\top usp\\top usp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55521B5F-2EA0-4FCC-87A0-6CF2E0D5ADBD}|top usp\\top usp.csproj|solutionrelative:top usp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [N\u00E1vrh]",
+              "DocumentMoniker": "O:\\7.M seminar\\Vlastni_repo\\top usp\\top usp\\Form1.cs",
+              "RelativeDocumentMoniker": "top usp\\Form1.cs",
+              "ToolTip": "O:\\7.M seminar\\Vlastni_repo\\top usp\\top usp\\Form1.cs [N\u00E1vrh]",
+              "RelativeToolTip": "top usp\\Form1.cs [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:22:08.784Z",
+              "EditorCaption": " [N\u00E1vrh]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
