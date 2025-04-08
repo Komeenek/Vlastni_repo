@@ -1,0 +1,7 @@
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\Connect4\Connect4\bin\Debug\Connect4.exe.config
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\Connect4\Connect4\bin\Debug\Connect4.exe
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\Connect4\Connect4\bin\Debug\Connect4.pdb
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\Connect4\Connect4\obj\Debug\Connect4.csproj.AssemblyReference.cache
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\Connect4\Connect4\obj\Debug\Connect4.csproj.CoreCompileInputs.cache
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\Connect4\Connect4\obj\Debug\Connect4.exe
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\Connect4\Connect4\obj\Debug\Connect4.pdb
