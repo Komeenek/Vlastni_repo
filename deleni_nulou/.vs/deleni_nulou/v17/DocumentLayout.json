@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\7.M seminar\\Vlastni_repo\\deleni_nulou\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F257CDF7-694C-441D-AA2C-4689B80349AC}|deleni_nulou\\deleni_nulou.csproj|o:\\7.m seminar\\vlastni_repo\\deleni_nulou\\deleni_nulou\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F257CDF7-694C-441D-AA2C-4689B80349AC}|deleni_nulou\\deleni_nulou.csproj|solutionrelative:deleni_nulou\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "O:\\7.M seminar\\Vlastni_repo\\deleni_nulou\\deleni_nulou\\Program.cs",
+              "RelativeDocumentMoniker": "deleni_nulou\\Program.cs",
+              "ToolTip": "O:\\7.M seminar\\Vlastni_repo\\deleni_nulou\\deleni_nulou\\Program.cs",
+              "RelativeToolTip": "deleni_nulou\\Program.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwHsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:58:42.562Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

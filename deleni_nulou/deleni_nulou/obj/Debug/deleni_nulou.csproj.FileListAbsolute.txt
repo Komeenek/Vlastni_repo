@@ -1,0 +1,7 @@
+O:\7.M seminar\Vlastni_repo\deleni_nulou\deleni_nulou\bin\Debug\deleni_nulou.exe.config
+O:\7.M seminar\Vlastni_repo\deleni_nulou\deleni_nulou\bin\Debug\deleni_nulou.exe
+O:\7.M seminar\Vlastni_repo\deleni_nulou\deleni_nulou\bin\Debug\deleni_nulou.pdb
+O:\7.M seminar\Vlastni_repo\deleni_nulou\deleni_nulou\obj\Debug\deleni_nulou.csproj.AssemblyReference.cache
+O:\7.M seminar\Vlastni_repo\deleni_nulou\deleni_nulou\obj\Debug\deleni_nulou.csproj.CoreCompileInputs.cache
+O:\7.M seminar\Vlastni_repo\deleni_nulou\deleni_nulou\obj\Debug\deleni_nulou.exe
+O:\7.M seminar\Vlastni_repo\deleni_nulou\deleni_nulou\obj\Debug\deleni_nulou.pdb
