@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\7.M seminar\\Vlastni_repo\\vyhra_check\\",
+  "WorkspaceRootPath": "C:\\Users\\heissigerjindrich2\\Desktop\\Jin\u00E9\\koood\\SEMINAR\\Vlastni_repo\\vyhra_check\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29DC4A50-6A67-45E9-A05C-E38FE1D82CF6}|vyhra_check\\vyhra_check.csproj|o:\\7.m seminar\\vlastni_repo\\vyhra_check\\vyhra_check\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29DC4A50-6A67-45E9-A05C-E38FE1D82CF6}|vyhra_check\\vyhra_check.csproj|c:\\users\\heissigerjindrich2\\desktop\\jin\u00E9\\koood\\seminar\\vlastni_repo\\vyhra_check\\vyhra_check\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29DC4A50-6A67-45E9-A05C-E38FE1D82CF6}|vyhra_check\\vyhra_check.csproj|solutionrelative:vyhra_check\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "O:\\7.M seminar\\Vlastni_repo\\vyhra_check\\vyhra_check\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\heissigerjindrich2\\Desktop\\Jin\u00E9\\koood\\SEMINAR\\Vlastni_repo\\vyhra_check\\vyhra_check\\Program.cs",
               "RelativeDocumentMoniker": "vyhra_check\\Program.cs",
-              "ToolTip": "O:\\7.M seminar\\Vlastni_repo\\vyhra_check\\vyhra_check\\Program.cs",
+              "ToolTip": "C:\\Users\\heissigerjindrich2\\Desktop\\Jin\u00E9\\koood\\SEMINAR\\Vlastni_repo\\vyhra_check\\vyhra_check\\Program.cs",
               "RelativeToolTip": "vyhra_check\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA5wDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T14:35:02.446Z",
               "EditorCaption": ""
