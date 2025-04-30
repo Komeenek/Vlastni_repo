@@ -1,0 +1,7 @@
+O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\bin\Debug\stromecek_s_vyrazy.exe.config
+O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\bin\Debug\stromecek_s_vyrazy.exe
+O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\bin\Debug\stromecek_s_vyrazy.pdb
+O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.csproj.AssemblyReference.cache
+O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.csproj.CoreCompileInputs.cache
+O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.exe
+O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.pdb

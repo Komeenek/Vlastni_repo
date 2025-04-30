@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\7.M seminar\\Vlastni_repo\\stromecek_s_vyrazy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1656011-EF4F-4CAD-92F0-F3F3D16F9E6B}|stromecek_s_vyrazy\\stromecek_s_vyrazy.csproj|o:\\7.m seminar\\vlastni_repo\\stromecek_s_vyrazy\\stromecek_s_vyrazy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1656011-EF4F-4CAD-92F0-F3F3D16F9E6B}|stromecek_s_vyrazy\\stromecek_s_vyrazy.csproj|solutionrelative:stromecek_s_vyrazy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "O:\\7.M seminar\\Vlastni_repo\\stromecek_s_vyrazy\\stromecek_s_vyrazy\\Program.cs",
+              "RelativeDocumentMoniker": "stromecek_s_vyrazy\\Program.cs",
+              "ToolTip": "O:\\7.M seminar\\Vlastni_repo\\stromecek_s_vyrazy\\stromecek_s_vyrazy\\Program.cs",
+              "RelativeToolTip": "stromecek_s_vyrazy\\Program.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAYwJMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T12:49:36.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
