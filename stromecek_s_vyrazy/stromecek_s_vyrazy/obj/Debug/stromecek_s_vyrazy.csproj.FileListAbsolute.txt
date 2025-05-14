@@ -5,3 +5,10 @@ O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stro
 O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.csproj.CoreCompileInputs.cache
 O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.exe
 O:\7.M seminar\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.pdb
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\bin\Debug\stromecek_s_vyrazy.exe.config
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\bin\Debug\stromecek_s_vyrazy.exe
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\bin\Debug\stromecek_s_vyrazy.pdb
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.csproj.AssemblyReference.cache
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.csproj.CoreCompileInputs.cache
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.exe
+C:\Users\heissigerjindrich2\Desktop\Jiné\koood\SEMINAR\Vlastni_repo\stromecek_s_vyrazy\stromecek_s_vyrazy\obj\Debug\stromecek_s_vyrazy.pdb

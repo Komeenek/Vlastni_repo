@@ -19,11 +19,27 @@ namespace stromecek_s_vyrazy
 
             VyrazovyStrom<string> vyrazovyStrom = new VyrazovyStrom<string>();
 
-            vyrazovyStrom.Vytvor(realVstup);
+            if (realVstup[0] == "+" || realVstup[0] == "-" || realVstup[0] == "*" || realVstup[0] == "/")
+            {
+                Console.WriteLine(itk.VyhodnoceniPre(realVstup));
 
-            Console.WriteLine(vyrazovyStrom.Show());
+                Console.WriteLine("Zadal jsi prefix, takže strom nebude");
+            }
+            else
+            {
+                vyrazovyStrom.Vytvor(realVstup);
 
-            Console.WriteLine(itk.VyhodnoceniPost(realVstup));
+                Console.WriteLine("Infix: " + vyrazovyStrom.Show());
+
+                Console.WriteLine("Prefix: " + vyrazovyStrom.ShowPre());
+
+                Console.WriteLine("Postfix: " + vyrazovyStrom.ShowPost());
+
+                Console.WriteLine(itk.VyhodnoceniPost(realVstup));
+            }
+
+
+            
 
             Console.ReadLine();
         }
@@ -63,6 +79,8 @@ namespace stromecek_s_vyrazy
                             case '/':
                                 x = cisla.Pop();
                                 y = cisla.Pop();
+                                if (x == 0)
+                                    Console.WriteLine("Neděl nulou, klaune");
                                 cisla.Push(y / x);
                                 break;
                             default:
@@ -75,6 +93,59 @@ namespace stromecek_s_vyrazy
                 catch
                 {
                     Console.WriteLine("Špatný vstup");
+                }
+            }
+
+            return cisla.Pop();
+        }
+
+        public float VyhodnoceniPre(string[] vstup)
+        {
+            Stack<float> cisla = new Stack<float>();
+
+
+            for (int i = 0; i < vstup.Length; i++)
+            {
+                try
+                {
+                    if (float.TryParse(vstup[vstup.Length - 1 - i], NumberStyles.Float, CultureInfo.InvariantCulture, out float result))
+                        cisla.Push(result);
+                    else
+                    {
+                        switch (Convert.ToChar(vstup[vstup.Length - 1 - i]))
+                        {
+                            case '+':
+                                Single x = cisla.Pop();
+                                Single y = cisla.Pop();
+                                cisla.Push(x + y);
+                                break;
+                            case '-':
+                                x = cisla.Pop();
+                                y = cisla.Pop();
+                                cisla.Push(x - y);
+                                break;
+                            case '*':
+                                x = cisla.Pop();
+                                y = cisla.Pop();
+                                cisla.Push(x * y);
+                                break;
+                            case '/':
+                                x = cisla.Pop();
+                                y = cisla.Pop();
+                                if (y == 0)
+                                    Console.WriteLine("Neděl nulou, klaune");
+                                cisla.Push(x / y);
+                                break;
+                            default:
+                                Console.WriteLine("Něco se pos*alo");
+                                break;
+                        }
+                    }
+                }
+
+                catch
+                {
+                    Console.WriteLine("Asi málo operandů");
                 }
             }
 
@@ -120,7 +191,7 @@ namespace stromecek_s_vyrazy
 
                 catch
                 {
-                    Console.WriteLine("spatne!");
+                    Console.WriteLine("Málo operandů");
                 }
             }
 
@@ -137,15 +208,68 @@ namespace stromecek_s_vyrazy
                 if (node == null)
                     return;
 
-                Stringovnik += "(";
+                if (node.LeftSon != null || node.RightSon != null)
+                    Stringovnik += "(";
 
                 _show(node.LeftSon);
 
                 Stringovnik += node.Value + " ";
 
                 _show(node.RightSon);
+                if (node.LeftSon != null || node.RightSon != null)
+                {
+                    Stringovnik = Stringovnik.Substring(0, Stringovnik.Length - 1);
+                    Stringovnik += ") ";
+                }
+                    
+            }
 
-                Stringovnik += ")";
+            if (Root == null)
+                return "Strom je prazdny";
+            _show(Root);
+
+            return Stringovnik;
+        }
+
+        public string ShowPre()
+        {
+
+            string Stringovnik = "";
+
+            void _show(Node<T> node)
+            {
+                if (node == null)
+                    return;
+
+                Stringovnik += node.Value + " ";
+
+                _show(node.LeftSon);
+
+                _show(node.RightSon);
+            }
+
+            if (Root == null)
+                return "Strom je prazdny";
+            _show(Root);
+
+            return Stringovnik;
+        }
+
+        public string ShowPost()
+        {
+
+            string Stringovnik = "";
+
+            void _show(Node<T> node)
+            {
+                if (node == null)
+                    return;
+
+                _show(node.LeftSon);
+
+                _show(node.RightSon);
+
+                Stringovnik += node.Value + " ";
             }
 
             if (Root == null)
