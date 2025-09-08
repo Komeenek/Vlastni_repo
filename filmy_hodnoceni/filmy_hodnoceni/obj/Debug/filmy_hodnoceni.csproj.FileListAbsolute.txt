@@ -1,0 +1,7 @@
+O:\7.M seminar\Vlastni_repo\filmy_hodnoceni\filmy_hodnoceni\bin\Debug\filmy_hodnoceni.exe.config
+O:\7.M seminar\Vlastni_repo\filmy_hodnoceni\filmy_hodnoceni\bin\Debug\filmy_hodnoceni.exe
+O:\7.M seminar\Vlastni_repo\filmy_hodnoceni\filmy_hodnoceni\bin\Debug\filmy_hodnoceni.pdb
+O:\7.M seminar\Vlastni_repo\filmy_hodnoceni\filmy_hodnoceni\obj\Debug\filmy_hodnoceni.csproj.AssemblyReference.cache
+O:\7.M seminar\Vlastni_repo\filmy_hodnoceni\filmy_hodnoceni\obj\Debug\filmy_hodnoceni.csproj.CoreCompileInputs.cache
+O:\7.M seminar\Vlastni_repo\filmy_hodnoceni\filmy_hodnoceni\obj\Debug\filmy_hodnoceni.exe
+O:\7.M seminar\Vlastni_repo\filmy_hodnoceni\filmy_hodnoceni\obj\Debug\filmy_hodnoceni.pdb
