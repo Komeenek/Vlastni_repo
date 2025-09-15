@@ -1,0 +1,7 @@
+O:\7.M seminar\Vlastni_repo\BiL\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+O:\7.M seminar\Vlastni_repo\BiL\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+O:\7.M seminar\Vlastni_repo\BiL\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+O:\7.M seminar\Vlastni_repo\BiL\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+O:\7.M seminar\Vlastni_repo\BiL\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+O:\7.M seminar\Vlastni_repo\BiL\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+O:\7.M seminar\Vlastni_repo\BiL\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
